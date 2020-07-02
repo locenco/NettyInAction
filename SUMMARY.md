@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [前言](README.md)
 
 ## 开始
 
