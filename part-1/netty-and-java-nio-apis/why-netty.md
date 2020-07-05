@@ -1,14 +1,14 @@
 # 1.1. 为什么使用Netty？
 
-    大卫·惠勒曾经说过：“计算机科学的所有问题，都能够在另一层面间接地解决”。作为一个NIO 客户-服务端框架，Netty提供了这样一种间接的解决方案。Netty简化了TCP/UDP服务的网络编程，但我们仍然可以使用低层次的TCP api，因为Netty提供了高层次的抽象。
+大卫·惠勒曾经说过：“计算机科学的所有问题，都能够在另一层面间接地解决”。作为一个NIO 客户-服务端框架，Netty提供了这样一种间接的解决方案。Netty简化了TCP/UDP服务的网络编程，但我们仍然可以使用低层次的TCP api，因为Netty提供了高层次的抽象。
 
 ## 1.1.1 不是所有的网络框架都是一样的
 
-    在Netty中，“快和简单”并不意味着最终的应用程序会有可维护性和性能问题。从FTP、SMTP、HTTP、WebSocket、SPDY协议以及各种二进制和传统的文本协议中获得的经验，使得Netty的创始人非常注意Netty的设计。最终，Netty成功地提供了**易于开发、高性能、高稳定性、和高扩展**的优点。
+ 在Netty中，“快和简单”并不意味着最终的应用程序会有可维护性和性能问题。从FTP、SMTP、HTTP、WebSocket、SPDY协议以及各种二进制和传统的文本协议中获得的经验，使得Netty的创始人非常注意Netty的设计。最终，Netty成功地提供了**易于开发、高性能、高稳定性、和高扩展**的优点。
 
-     一些知名度高的公司和开源项目包括RedHat, Twitter, Infinispan, HornetQ, Vert.x, Finagle, Akka, Apache Cassandra, Elasticsearch,以及其他人的使用都有助于Netty，也可以说，Netty的一些特性也正是由于这些项目的需求。经过这些年的发展，Netty已经变得非常的知名并且是最常用的JVM网络框架之一。这在数个流行的开闭源项目中可体现的。事实上，Netty在2011年获得了[杜克选择奖](https://blogs.oracle.com/java/and-the-winners-arethe-dukes-choice-award)。
+  一些知名度高的公司和开源项目包括RedHat, Twitter, Infinispan, HornetQ, Vert.x, Finagle, Akka, Apache Cassandra, Elasticsearch,以及其他人的使用都有助于Netty，也可以说，Netty的一些特性也正是由于这些项目的需求。经过这些年的发展，Netty已经变得非常的知名并且是最常用的JVM网络框架之一。这在数个流行的开闭源项目中可体现的。事实上，Netty在2011年获得了[杜克选择奖](https://blogs.oracle.com/java/and-the-winners-arethe-dukes-choice-award)。
 
-   并且在2011年，Netty的作者[Trustin Lee](https://twitter.com/trustin)离开了RedHat去了Twitter。至此，Netty项目变得独立于任何公司，并且在努力简化对它的贡献。RedHat和Twitter都使用Netty，所有在撰写本文的时候，这两家公司是Netty最大的贡献者一点也不足为奇。采用Netty的项目在增加，与此同时，个人贡献者也在增加。Netty的[用户社区](https://netty.io/community.html)很活跃，项目仍充满活力。
+ 并且在2011年，Netty的作者[Trustin Lee](https://twitter.com/trustin)离开了RedHat去了Twitter。至此，Netty项目变得独立于任何公司，并且在努力简化对它的贡献。RedHat和Twitter都使用Netty，所有在撰写本文的时候，这两家公司是Netty最大的贡献者一点也不足为奇。采用Netty的项目在增加，与此同时，个人贡献者也在增加。Netty的[用户社区](https://netty.io/community.html)很活跃，项目仍充满活力。
 
 ## 1.1.2 Netty有丰富的功能集
 
