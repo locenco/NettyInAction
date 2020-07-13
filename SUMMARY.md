@@ -13,5 +13,7 @@
 
 ---
 
-* [第二章 第一个Netty应用](di-er-zhang-di-yi-ge-netty-ying-yong.md)
+* [第二章 第一个Netty应用](your-first-netty-application/README.md)
+  * [2.1 配置环境](your-first-netty-application/2.1-pei-zhi-huan-jing.md)
+  * [2.2 Netty客户端和服务端概览](your-first-netty-application/2.2-netty-ke-hu-duan-he-fu-wu-duan-gai-lan.md)
 
