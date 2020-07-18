@@ -20,5 +20,6 @@
   * [2.4 写一个回声客户端](your-first-netty-application/2.4-xie-yi-ge-hui-sheng-ke-hu-duan.md)
   * [2.5 编译和运行回声客户端和服务端](your-first-netty-application/2.5-bian-yi-he-yun-hang-hui-sheng-ke-hu-duan-he-fu-wu-duan.md)
   * [2.6 总结](your-first-netty-application/2.6-zong-jie.md)
-* [第三章 Netty入门](di-san-zhang-netty-ru-men.md)
+* [第三章 Netty入门](di-san-zhang-netty-ru-men/README.md)
+  * [3.1Netty 速成](di-san-zhang-netty-ru-men/3.1netty-su-cheng.md)
 
