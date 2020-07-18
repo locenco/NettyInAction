@@ -22,4 +22,7 @@
   * [2.6 总结](your-first-netty-application/2.6-zong-jie.md)
 * [第三章 Netty入门](di-san-zhang-netty-ru-men/README.md)
   * [3.1Netty 速成](di-san-zhang-netty-ru-men/3.1netty-su-cheng.md)
+  * [3.2 管道、事件和IO](di-san-zhang-netty-ru-men/3.2-guan-dao-shi-jian-he-io.md)
+  * [3.3 引导程序：是什么和为什么](di-san-zhang-netty-ru-men/3.3-yin-dao-cheng-xu-shi-shen-me-he-wei-shen-me.md)
+  * [3.5 管道处理器和数据流](di-san-zhang-netty-ru-men/3.5-guan-dao-chu-li-qi-he-shu-ju-liu.md)
 
