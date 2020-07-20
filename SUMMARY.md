@@ -27,4 +27,6 @@
   * [3.4 管道处理器和数据流](di-san-zhang-netty-ru-men/3.5-guan-dao-chu-li-qi-he-shu-ju-liu.md)
   * [3.5  编码器，解码器和域逻辑：Handler的详细介绍](di-san-zhang-netty-ru-men/3.5-bian-ma-qi-jie-ma-qi-he-yu-luo-ji-handler-de-xiang-xi-jie-shao.md)
   * [3.6 总结](di-san-zhang-netty-ru-men/3.6-zong-jie.md)
+* [第四章 传输（Transports）](di-si-zhang-chuan-shu-transports/README.md)
+  * [4.1 案例研究：运输迁移](di-si-zhang-chuan-shu-transports/4.1-an-li-yan-jiu-yun-shu-qian-yi.md)
 
