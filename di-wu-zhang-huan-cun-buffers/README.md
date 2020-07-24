@@ -1,0 +1,21 @@
+# 第五章 缓存（Buffers）
+
+本章重点：
+
+* ByteBuf
+* ByteBufHolder
+* ByteBufAlloactor
+* 在这些接口上分配和执行操作
+
+每当您需要传输数据时，它都必须包含一个缓冲区。Java的NIO API带有自己的Buffer类，但是正如我在前几章中所讨论的那样，该实现是相当有限的，并且没有进行优化。使用JDK的ByteBuffer通常很麻烦，而且比所需的还要复杂。缓冲区是重要的组件，提供所需的层是必需的任务，并且应该是API的一部分。
+
+幸运的是，Netty附带了一个功能强大的缓冲区实现，该缓冲区实现用来表示字节序列，并可以帮助您处理原始字节或自定义POJO。新的缓冲区类型ByteBuf实际上等于JDK的ByteBuffer。ByteBuf的目的是通过Netty管道传递数据。。它是从头开始设计的，旨在解决JDK的ByteBuffer的问题并满足网络应用程序开发人员的日常需求，从而提高他们的生产力。与使用JDK的ByteBuffer相比，此方法具有明显的优势。
+
+注：在本书的其余部分，我将Netty的缓冲区接口和实现作为数据容器来引用，以帮助将它们与Java实现区分开来，我继续称其为Java的缓冲区API。
+
+在本章中，您将了解Netty的缓冲区API，它比JDK所提供的功能更好的地方，使它如此强大的原因，以及为什么它比JDK的缓冲区API更灵活。您将对如何访问Netty框架中交换的数据以及如何使用它有更深入的了解。由于Netty中几乎所有地方都使用了缓冲区API，因此本章还为以后的章节打下基础。
+
+由于缓冲区通过Netty的ChannelPipeline和ChannelHandler实现传递数据，因此该缓冲区在Netty应用程序的日常开发中很普遍。ChannelHandler和ChannelPipeline将在第6章中详细讨论。
+
+
+
