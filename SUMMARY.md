@@ -35,4 +35,5 @@
   * [4.5 总结](di-si-zhang-chuan-shu-transports/4.5.md)
 * [第五章 缓存（Buffers）](di-wu-zhang-huan-cun-buffers/README.md)
   * [5.1 缓冲区API](di-wu-zhang-huan-cun-buffers/5.1-huan-chong-qu-api.md)
+  * [5.2 ByteBuf-字节数据容器](di-wu-zhang-huan-cun-buffers/5.2-bytebuf-zi-jie-shu-ju-rong-qi.md)
 
