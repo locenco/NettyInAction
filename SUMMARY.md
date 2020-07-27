@@ -37,4 +37,6 @@
   * [5.1 缓冲区API](di-wu-zhang-huan-cun-buffers/5.1-huan-chong-qu-api.md)
   * [5.2 ByteBuf-字节数据容器](di-wu-zhang-huan-cun-buffers/5.2-bytebuf-zi-jie-shu-ju-rong-qi.md)
   * [5.3 ByteBuf的字节操作](di-wu-zhang-huan-cun-buffers/5.3-bytebuf-de-zi-jie-cao-zuo.md)
+  * [5.4 ByteBufHolder](di-wu-zhang-huan-cun-buffers/5.4-bytebufholder.md)
+  * [5.5 总结](di-wu-zhang-huan-cun-buffers/5.5-zong-jie.md)
 
