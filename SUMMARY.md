@@ -39,6 +39,10 @@
   * [5.3 ByteBuf的字节操作](di-wu-zhang-huan-cun-buffers/5.3-bytebuf-de-zi-jie-cao-zuo.md)
   * [5.4 ByteBufHolder](di-wu-zhang-huan-cun-buffers/5.4-bytebufholder.md)
   * [5.5 总结](di-wu-zhang-huan-cun-buffers/5.5-zong-jie.md)
-* [第六章 ChannelHandler](di-liu-zhang-channelhandler.md)
+* [第六章 ChannelHandler](di-liu-zhang-channelhandler/README.md)
+  * [6.1 ChannelPipeline](di-liu-zhang-channelhandler/6.1-channelpipeline.md)
+  * [6.2 ChannelHandlerContext](di-liu-zhang-channelhandler/6.2-channelhandlercontext.md)
+  * [6.3 状态模型](di-liu-zhang-channelhandler/6.3-zhuang-tai-mo-xing.md)
+  * [6.4 ChannelHandlers and their types](di-liu-zhang-channelhandler/6.4-channelhandlers-and-their-types.md)
 * [第七章 Codec](di-qi-zhang-codec.md)
 
