@@ -44,5 +44,7 @@
   * [6.2 ChannelHandlerContext](di-liu-zhang-channelhandler/6.2-channelhandlercontext.md)
   * [6.3 状态模型](di-liu-zhang-channelhandler/6.3-zhuang-tai-mo-xing.md)
   * [6.4 ChannelHandlers and their types](di-liu-zhang-channelhandler/6.4-channelhandlers-and-their-types.md)
+  * [6.5 Summary](di-liu-zhang-channelhandler/6.5-summary.md)
+* [终结篇总结](zhong-jie-pian-zong-jie.md)
 * [第七章 Codec](di-qi-zhang-codec.md)
 
